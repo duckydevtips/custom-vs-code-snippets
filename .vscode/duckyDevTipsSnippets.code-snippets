@@ -1,0 +1,102 @@
+{
+  "console.log() Snippet": {
+    "scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "cl",
+    "body": ["console.log('$1', $1);"],
+    "description": "logs to the console"
+  },
+  "debugger Snippet": {
+    "scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "db",
+    "body": ["debugger;"],
+    "description": "debugger statement"
+  },
+  "Functional Component Snippet": {
+    "scope": "typescriptreact, javascriptreact",
+    "prefix": "fc",
+    "body": [
+      "import { Grid, Typography } from '@mui/material';",
+      "import { FC } from 'react';",
+      "",
+      "export type ${1:Name}Props = {};",
+      "",
+      "export const ${1:Name}: FC<${1:Name}Props> = () => {",
+      "  return (",
+      "    <Grid container>",
+      "      <Typography>Greetings Earthlings</Typography>",
+      "    </Grid>",
+      "  );",
+      "};",
+      ""
+    ],
+    "description": "creates functional component"
+  },
+  "Arrow Function Snippet": {
+    "scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "af",
+    "body": ["const ${1:name} = () => {", "  $0", "};"],
+    "description": "basic arrow function"
+  },
+  "useState Snippet": {
+    "scope": "typescriptreact, javascriptreact",
+    "prefix": "us",
+    "body": [
+      "const [${1:state}, ${2:setState}] = useState(${3:initialState});"
+    ],
+    "description": "custom useState"
+  },
+  "useEffect Snippet": {
+    "scope": "typescriptreact, javascriptreact",
+    "prefix": "ue",
+    "body": ["useEffect(() => {", "  ${1}", "}, [${2}]);"],
+    "description": "custom useEffect"
+  },
+	"useMemo Snippet": {
+    "scope": "typescriptreact, javascriptreact",
+    "prefix": "um",
+    "body": ["const ${1:value} = useMemo(() => {", "  ${2}", "}, [${3}]);"],
+    "description": "custom useMemo"
+  },
+  "MUI Sx Prop Snippet": {
+    "scope": "typescriptreact, javascriptreact",
+    "prefix": "sx",
+    "body": ["sx={{ ${1:property}: ${2:value} }}"],
+    "description": "basic MUI sx prop"
+  },
+  "MUI Sx Prop w/ Theme Snippet": {
+    "scope": "typescriptreact, javascriptreact",
+    "prefix": "sxt",
+    "body": ["sx={(th) => ({", "  ${1:property}: th.${2:key},", "})}"],
+    "description": "MUI sx prop with theme injection"
+  },
+  "MUI Sx Flex CSS Snippet": {
+    "scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "flx",
+    "body": ["sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}"],
+    "description": "commonly used MUI sx flex css styles"
+  },
+  "Reduce Object's Vals Snippet": {
+		"scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "reduceObj",
+    "body": [
+       "const ${1:name} = Object.values(${2:obj}).reduce((${3:accumulator}, ${4:currentValue}) => {",
+       "    $0",
+       "    return ${3:accumulator};",
+       "}${5:, ${6:initialValue}});"
+    ],
+		"description": "Reducer function for an object"
+
+  }
+	"Reduce Array Snippet": {
+		"scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "reduceAr",
+    "body": [
+       "const ${1:name} = ${2:array}.reduce((${3:accumulator}, ${4:currentValue}) => {",
+       "    $0",
+       "    return ${3:accumulator};",
+       "}${5:, ${6:initialValue}});"
+    ],
+		"description": "Reducer function for an array"
+
+  }
+}
