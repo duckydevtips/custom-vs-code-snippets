@@ -76,27 +76,25 @@
     "description": "commonly used MUI sx flex css styles"
   },
   "Reduce Object's Vals Snippet": {
-		"scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "scope": "javascript, typescript, typescriptreact, javascriptreact",
     "prefix": "reduceObj",
     "body": [
-       "const ${1:name} = Object.values(${2:obj}).reduce((${3:accumulator}, ${4:currentValue}) => {",
-       "    $0",
-       "    return ${3:accumulator};",
-       "}${5:, ${6:initialValue}});"
+      "const ${1:name} = Object.values(${2:obj}).reduce((${3:accumulator}, ${4:currentValue}) => {",
+      "   $0",
+      "   return ${3:accumulator};",
+      "}${5:, ${6:initialValue}});"
     ],
-		"description": "Reducer function for an object"
-
-  }
-	"Reduce Array Snippet": {
-		"scope": "javascript, typescript, typescriptreact, javascriptreact",
-    "prefix": "reduceAr",
+    "description": "Reducer function for an object"
+  },
+  "Reduce Array Snippet": {
+    "scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "reduceArr",
     "body": [
-       "const ${1:name} = ${2:array}.reduce((${3:accumulator}, ${4:currentValue}) => {",
-       "    $0",
-       "    return ${3:accumulator};",
-       "}${5:, ${6:initialValue}});"
+      "const ${1:name} = ${2:array}.reduce((${3:accumulator}, ${4:currentValue}) => {",
+      "   $0",
+      "   return ${3:accumulator};",
+      "}${5:, ${6:initialValue}});"
     ],
-		"description": "Reducer function for an array"
-
+    "description": "Reducer function for an array"
   }
 }
