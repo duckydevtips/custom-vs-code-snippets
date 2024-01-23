@@ -14,4 +14,23 @@ A collection of all my favorite custom snippets. Happy coding!
 
 ## Getting Started
 
-// TODO: link to youtube video 
+Checkout my YouTube video to learn how to effortlessly craft custom VS Code snippets, saving you time and minimizing repetitive tasks while you code. (LINK COMING SOON)
+_____________________________________________
+
+☕️ | <a href="https://www.paypal.me/DuckyDevTips">Buy Ducky a coffee</a>
+
+📚 | Resources:
+
+ → https://code.visualstudio.com/docs/editor/userdefinedsnippets
+
+ → https://blog.webdevsimplified.com/2022-03/vscode-snippet/
+
+🎧 | <a href="https://youtube.com/playlist?list=PLHOkZNEr0SBb_8A9Th73fCnShO7b_ncMi&si=PWYXNd8l4gA1bkpv">My Coding Music Playlist</a>
+
+🌎 | Join Ducky on Socials
+
+ → <a href="https://youtube.com/@DuckyDevTips">YouTube</a>
+
+ → <a href="https://instagram.com/duckydevtips">Instagram</a>
+
+ → <a href="https://www.tiktok.com/@ducky.dev.tips">TikTok</a>
