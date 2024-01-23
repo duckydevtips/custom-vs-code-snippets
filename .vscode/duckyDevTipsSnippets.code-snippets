@@ -15,18 +15,18 @@
     "scope": "typescriptreact, javascriptreact",
     "prefix": "fc",
     "body": [
-      "import { Grid, Typography } from '@mui/material';",
-      "import { FC } from 'react';",
-      "",
-      "export type ${1:Name}Props = {};",
-      "",
-      "export const ${1:Name}: FC<${1:Name}Props> = () => {",
-      "  return (",
-      "    <Grid container>",
-      "      <Typography>Greetings Earthlings</Typography>",
-      "    </Grid>",
-      "  );",
-      "};",
+      "import { Grid, Typography } from '@mui/material';"
+      "import { FC } from 'react';"
+      ""
+      "export type ${1:Name}Props = {};"
+      ""
+      "export const ${1:Name}: FC<${1:Name}Props> = () => {"
+      "  return ("
+      "    <Grid container>"
+      "      <Typography>Greetings Earthlings</Typography>"
+      "    </Grid>"
+      "  );"
+      "};"
       ""
     ],
     "description": "creates functional component"
@@ -79,9 +79,9 @@
     "scope": "javascript, typescript, typescriptreact, javascriptreact",
     "prefix": "reduceObj",
     "body": [
-      "const ${1:name} = Object.values(${2:obj}).reduce((${3:accumulator}, ${4:currentValue}) => {",
-      "   $0",
-      "   return ${3:accumulator};",
+      "const ${1:name} = Object.values(${2:obj}).reduce((${3:accumulator}, ${4:currentValue}) => {"
+      "   $0"
+      "   return ${3:accumulator};"
       "}${5:, ${6:initialValue}});"
     ],
     "description": "Reducer function for an object"
@@ -90,9 +90,9 @@
     "scope": "javascript, typescript, typescriptreact, javascriptreact",
     "prefix": "reduceArr",
     "body": [
-      "const ${1:name} = ${2:array}.reduce((${3:accumulator}, ${4:currentValue}) => {",
-      "   $0",
-      "   return ${3:accumulator};",
+      "const ${1:name} = ${2:array}.reduce((${3:accumulator}, ${4:currentValue}) => {"
+      "   $0"
+      "   return ${3:accumulator};"
       "}${5:, ${6:initialValue}});"
     ],
     "description": "Reducer function for an array"
