@@ -37,4 +37,4 @@ Your next <a href="https://youtube.com/playlist?list=PLHOkZNEr0SBb_8A9Th73fCnShO
 
  → <a href="https://instagram.com/duckydevtips">Instagram</a>
 
- → <a href="https://www.tiktok.com/@ducky.dev.tips">TikTok</a>
+ → <a href="https://www.tiktok.com/@duckydevtips">TikTok</a>
