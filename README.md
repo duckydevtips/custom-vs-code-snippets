@@ -14,20 +14,24 @@ A collection of all my favorite custom snippets. Happy coding!
 
 ## Getting Started
 
-Checkout my YouTube video to learn how to effortlessly craft custom VS Code snippets, saving you time and minimizing repetitive tasks while you code. (LINK COMING SOON)
+Checkout my <a href="https://youtu.be/XJcx-eslTRw">YouTube video</a> to learn how to effortlessly craft custom VS Code snippets, saving you time and minimizing repetitive tasks while you code. 
 _____________________________________________
 
-☕️ | <a href="https://www.paypal.me/DuckyDevTips">Buy Ducky a coffee</a>
+## ☕️ Buy Ducky a coffee
 
-📚 | Resources:
+Pay it forward and help me continue creating tutorials for devs just like you. If you'd like to support my work, you can <a href="https://www.paypal.me/DuckyDevTips">buy me a coffee</a>. Thank you for your generosity!
+
+## 📚 Resources:
 
  → https://code.visualstudio.com/docs/editor/userdefinedsnippets
 
  → https://blog.webdevsimplified.com/2022-03/vscode-snippet/
 
-🎧 | <a href="https://youtube.com/playlist?list=PLHOkZNEr0SBb_8A9Th73fCnShO7b_ncMi&si=PWYXNd8l4gA1bkpv">My Coding Music Playlist</a>
+## 🎧 My Coding Music Playlist
 
-🌎 | Join Ducky on Socials
+Your next <a href="https://youtube.com/playlist?list=PLHOkZNEr0SBb_8A9Th73fCnShO7b_ncMi&si=PWYXNd8l4gA1bkpv">favorite playlist</a>. This is the music I listen to everyday while I code.
+
+## 🌎 Join Ducky on Socials
 
  → <a href="https://youtube.com/@DuckyDevTips">YouTube</a>
 
