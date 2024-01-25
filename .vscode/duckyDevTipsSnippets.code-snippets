@@ -11,25 +11,37 @@
     "body": ["debugger;"],
     "description": "debugger statement"
   },
-  "Functional Component Snippet": {
-    "scope": "typescriptreact, javascriptreact",
+  "Functional TSX Component Snippet": {
+    "scope": "typescript, typescriptreact",
     "prefix": "fc",
     "body": [
-      "import { Grid, Typography } from '@mui/material';"
-      "import { FC } from 'react';"
+      "import React, { FC } from 'react';"
       ""
       "export type ${1:Name}Props = {};"
       ""
       "export const ${1:Name}: FC<${1:Name}Props> = () => {"
       "  return ("
-      "    <Grid container>"
-      "      <Typography>Greetings Earthlings</Typography>"
-      "    </Grid>"
+      "    <div>Greetings Earthlings</div>"
       "  );"
       "};"
       ""
     ],
-    "description": "creates functional component"
+    "description": "creates custom TSX functional component"
+  },
+  "Functional JSX Component Snippet": {
+    "scope": "javascript, javascriptreact",
+    "prefix": "fc",
+    "body": [
+      "import React from 'react';"
+      ""
+      "export const ${1:Name} = () => {"
+      "  return ("
+      "    <div>Greetings Earthlings</div>"
+      "  );"
+      "};"
+      ""
+    ],
+    "description": "creates custom JSX functional component"
   },
   "Arrow Function Snippet": {
     "scope": "javascript, typescript, typescriptreact, javascriptreact",
